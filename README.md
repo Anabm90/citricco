@@ -41,9 +41,9 @@ citricco-app/
 | 8         |  Get / post |   /account/login ? | Cuenta de usuario y comprobación de login
 |9 | Get/post | /account/register | Signup
 |10| Post | /account/logout | Logout
-| 11        |     no lo sé   |       /cart   |  Carrito de compra             |
+| 11        |    Get|       /cart   |  Carrito de compra             |
 
-(podríamos añadir en alguna vista una barra simple de búsqueda con ajax)
+
 
 # Models
 
@@ -69,7 +69,7 @@ citricco-app/
     		},
     		category: {
     			type: [String],
-    			enum: ['no', 'se', 'bla', 'bla']
+    			enum: ['hoops', 'pendants']
     		},
     		createdAt: {
 	    		type: Date, 
