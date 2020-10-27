@@ -1,6 +1,6 @@
 # Citricco Store
 
-A handmade earrings e-commerce.
+A handmade earrings e-commerce. http://citricco.herokuapp.com/
 
 ## Components
 ```bash
